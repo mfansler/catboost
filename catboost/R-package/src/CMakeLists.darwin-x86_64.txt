@@ -29,7 +29,7 @@ target_link_libraries(catboostr PUBLIC
   private-libs-options
 )
 target_link_options(catboostr PRIVATE
-  -Wl,-platform_version,macos,11.0,11.0
+  -Wl,-platform_version,macos,10.9,10.9
   -fPIC
   -undefined
   dynamic_lookup
